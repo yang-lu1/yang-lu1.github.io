@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    background-color: rgb(25, 168, 168);
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+  }
+  .menu-container a {
+    color: #fff;
+    text-decoration: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .wrapper {
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+    margin:0;
+  }
+  
+  
+  .menu-container {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #5995DA;  
+    padding: 20px 0;
+  }
+  
+  .menu {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.group {
+    border: 1px solid #fff;  
+    display: flex;
+    justify-content: flex-end;
+  }
+  .database{
+        margin-left: 20px;
+  }
+  .main {
+    margin-left: 20px;
+  }
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between; 
+  }
+  .header a{
+    color: #5995DA;
+      text-decoration: none;
+  }
+  .logo{
+    display: flex;
+    align-items: center; 
+  }
+  .group-project,.github{
+    display: flex;
+    align-items: flex-end;
+  }
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+  }
+  
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+  }
+  .photo-grid :nth-child(1) { order: 4; }
+  .photo-grid  :nth-child(2) { order: 2; }
+  .photo-grid  :nth-child(3) { order: -1; }
+  .photo-grid  :nth-child(4) { order: 5; }
+  .photo-grid  :nth-child(5) { order: 3; }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
+  .footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
